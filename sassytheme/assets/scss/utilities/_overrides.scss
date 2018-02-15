@@ -1,0 +1,95 @@
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ */
+
+
+/** Nav **/
+
+nav {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 9999;
+
+    a,
+    ul a,
+    .brand-logo {
+        color: $sassy-black;
+        font-weight: 700;
+        font-family: 'Raleway Bold', Helvetica, Arial, sans;
+        letter-spacing: 0.08em;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .brand-logo {
+        padding-top: 5px;
+    }
+
+    ul a:hover {
+        background: $sassy-purple;
+        color: $sassy-white;
+    }
+
+    @media only screen and (min-width: 993px) {
+        .container {
+            width: 85%;
+        }
+    }
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+
+/** Footer **/
+
+.page-footer {
+    background-color: $sassy-light-greyish-blue;
+    .footer-copyright {
+        background-color: $sassy-greyish-blue;
+    }
+}
+
+
+/** Layout **/
+
+.container {
+    max-width: 740px;
+}
+
+.home-page,
+.custom-page,
+.boxpage-escape {
+    .section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        h4 {
+           @extend .sassy-bold;
+        }
+
+    }
+    .row .col.m9 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+/** Escape Page **/
+.tablepress {
+    @extend .striped;
+    @extend .responsive-table;
+}
+
+@media only screen and (min-width: 993px) {
+    .prices {
+        display: none;
+    }
+}

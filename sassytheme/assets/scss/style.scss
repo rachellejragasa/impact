@@ -1,0 +1,37 @@
+/*
+Theme Name: Sassy theme
+Theme URI: 
+Author: Rachelle Ragasa
+Author URI: http://www.rachelleragasa.com
+Description: A theme description
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* -----------------------------------------
+	Table of Contents
+--------------------------------------------*/
+@import '../../node_modules/materialize-css/sass/materialize',
+
+// Settings
+'settings/colours',
+
+// Tools
+'tools/mq',
+
+// Elements
+'elements/base',
+'elements/typography',
+// 'elements/reset',
+// 'elements/normalize',
+
+// Components
+'components/sections',
+'components/header',
+'components/footer',
+'components/template/boxpage',
+'components/template/boxpage-escape',
+
+// Utilities
+'utilities/overrides';

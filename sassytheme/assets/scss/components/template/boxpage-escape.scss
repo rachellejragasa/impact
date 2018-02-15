@@ -1,0 +1,25 @@
+.boxpage-escape-template {
+    @extend .box;
+
+    .container {
+        top: 40%;
+        margin-top: -50px;
+    }
+}
+
+.order {
+    @media only screen and (max-width: 992px) {
+        .row {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .box-left {
+            order: 2;
+        }
+
+        .box-right {
+            order: 1;
+        }
+    }
+}

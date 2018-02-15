@@ -1,0 +1,87 @@
+.brand-logo {
+    img {
+        height: 50px;
+        width: auto;
+    }
+}
+
+#main {
+    position: relative;
+    top: 55px;
+}
+
+.banner {
+    &-container {
+        position: relative;
+        overflow: hidden;
+        
+        
+        @include mq($until: tablet) {
+            height: 165px;
+        }
+
+        @include mq($from: tablet, $until: tabletLarge) {
+            height: 270px;
+        }
+
+        @include mq($from: tabletLarge, $until: desktop) {
+            height: 380px;
+        }
+       
+        @include mq($from: desktop) {
+            height: 500px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            transform: translateY(-15vw);
+        }
+        .banner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        .header {
+            span {
+                color: $sassy-white;
+                background: rgba(0, 0, 0, 0.7);
+            }
+        }
+
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        
+            h3 {
+                @extend .sassy-bold;
+                font-size: 3vw;
+                letter-spacing: normal;
+            }
+        }
+
+        .boxpage-escape {
+            .container {
+                padding: 20px;
+                background: $sassy-green;
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    span {
+                        font-size: 3vw !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
