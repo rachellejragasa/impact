@@ -4,12 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 <title>Impact Dance</title>
 
-<!-- JS -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js" defer></script>
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/assets/js/init.js'; ?>" defer></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js" defer></script>
-
-
 <!-- CSS -->
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
