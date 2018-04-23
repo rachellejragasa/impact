@@ -10,15 +10,6 @@
             }
           ?>
         </div>
-        <div class="col l5 s12">
-          <h5 class="white-text">Join our mailing list</h5>
-          <?php
-            if(is_active_sidebar('footer-sidebar-2'))
-            {
-              dynamic_sidebar('footer-sidebar-2');
-            }
-          ?>
-        </div>
         <div class="col l4 s12">
           <h5 class="white-text">Connect</h5>
           <?php
