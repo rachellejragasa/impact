@@ -34,7 +34,7 @@
             <h5 class="white-text">Around the web</h5>
             <ul class="social-media">
               <li>
-                <a href="https://www.facebook.com/The-Official-Impact-Dance-Company-1411144122532026/?fref=ts">
+                <a href="https://www.facebook.com/Impact-Youth-Dance-Company-1912612922144724/">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
@@ -44,12 +44,12 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/officialimpactdance/">
+                <a href="https://www.instagram.com/impactdanceyouth/">
                   <i class="fa fa-fw fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCr4xY6cBvlJjRUp2S_rANzg">
+                <a href="https://www.youtube.com/channel/UCYU7ImEBHKrQCWYGdzoT4aQ">
                   <i class="fa fa-fw fa-youtube"></i>
                 </a>
               </li>
