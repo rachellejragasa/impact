@@ -1,4 +1,4 @@
-<footer class="page-footer">
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l2 s12">
@@ -19,8 +19,7 @@
             }
           ?>
         </div>
-      </div>
-      <div class="col l6 s12">
+        <div class="col l6 s12">
             <h5 class="white-text">Around the web</h5>
             <ul class="social-media">
               <li>
@@ -45,6 +44,7 @@
               </li>
             </ul>
         </div>
+      </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
@@ -52,4 +52,4 @@
       </div>
     </div>
   </footer>
-  </div>
+</div>
